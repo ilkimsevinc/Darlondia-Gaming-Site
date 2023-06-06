@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+}
+
+.details-box {
+  flex: 1;
+  max-height: 100%;
+  margin-left: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; /* Add some spacing between the boxes */
+}
+
+.reviews-box {
+  flex: 1;
+  max-height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.reviews-box h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reviews-box p {
+  margin: 0;
+}
+
+.reviews-box button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.reviews-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reviews-box strong {
+  font-weight: normal;
+}

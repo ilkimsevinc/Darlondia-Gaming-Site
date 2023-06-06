@@ -1,0 +1,35 @@
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  border-radius: 50px; /* Make the container circular */
+  overflow: hidden; /* Clip any content that goes beyond the circular shape */
+  width: 200px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  background-color: purple; /* Optional: Add a background color */
+}
+
+input[type="text"] {
+  margin-right: 0px;
+  border: none; /* Remove the border */
+  padding: 5px;
+  width: 100%; /* Expand the input to fill the container */
+  background: none; /* Optional: Remove any background color */
+  color: whitesmoke;
+}
+
+input[type="text"]::placeholder {
+  color: grey; /* Set the placeholder text color to white */
+  font-style: italic;
+}
+
+button[type="search-bar-button"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,76 @@
+.box {
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background: #03e9f4;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 10px;
+  cursor: pointer;
+}
+
+.box button[type="submit"]:hover {
+  background: #fff;
+  color: #03e9f4;
+}
+
+.box .cancel-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.box .cancel-button:hover {
+  color: red;
+}
+
+.box .cancel-button:hover {
+  background: #fff;
+  color: red;
+}
+
+.box input[type="text"]::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
