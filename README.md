@@ -13,6 +13,6 @@ The platform goes beyond basic functionality by offering customizable user profi
 
 Users can actively participate in discussions through interactive features such as game reviews and ratings. They can share their thoughts, experiences, and recommendations, fostering a vibrant and active community. Additionally, users can follow other gamers whose opinions they value, creating connections and expanding their gaming network.
 
-
+Project done by Team Darlondia
 ![image](https://github.com/ilkimsevinc/Darlondia-Gaming-Site/assets/62252195/03ca33b1-9175-4d73-822c-ca05ce39d225)
 
